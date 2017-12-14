@@ -6,7 +6,7 @@ class VsPathWrapperConan(ConanFile):
     name = "vs_path_wrapper"
     version = "1.0"
     license = "MIT"
-    url = "<Package recipe repository url here, for issues about the package>"
+    url = "https://github.com/lasote/conan-vs-path-wrapper"
     description = "Use this package as a fake build_require to your Visual Studio installation, you will be able " \
                   "to build your dependency tree controlling the order of the PATH, specially if you are using " \
                   "subsystems like MSYS or CYGWIN. This PATH will be injected in the same order the build_requires " \
