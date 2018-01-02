@@ -1,6 +1,6 @@
 import os
 
-from conans import ConanFile, tools, VisualStudioBuildEnvironment
+from conans import ConanFile, tools
 
 class VsPathWrapperConan(ConanFile):
     name = "vs_path_wrapper"
